@@ -12,13 +12,51 @@
 </head>
 
 <style>
-    div{
+
+    section{
+        width: 250px;
+        height: 250px;
+        background: grey;
+
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        border-radius: 100%;
+
+    }
+    section>div{
+        width: 175px;
+        height: 175px;
         background: rebeccapurple;
+        border: 20px solid red;
+
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        border-radius: 100%;
+
+    }
+
+    section>div>div{
+        color: white;
+        text-align: center;
+        margin-top: 80px;
+
     }
 </style>
 <body>
     <section>
-        <div>Hello</div>
+        <div>
+            <div>Hello</div>
+        </div>
     </section>
 
 </body>
