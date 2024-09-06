@@ -10,6 +10,88 @@
 
     <title>Case 05</title>
 </head>
+<style>
+
+    body>section{
+        width: 1000px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    div{
+        border: 1px solid black;
+    }
+
+    section>div:first-child{
+        background: red;
+        grid-column: 1/2;
+    }
+
+    section>div:nth-child(2){
+        background: forestgreen;
+        grid-column: 2/3;
+
+    }
+
+    section>div:nth-child(3){
+        background: darkorange;
+        grid-column: 3/4;
+    }
+
+    section>div:nth-child(4){
+        background: rebeccapurple;
+        grid-column: 4/5;
+    }
+
+    section>div:nth-child(5){
+        background: plum;
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+
+    section>div:nth-child(6){
+        background: darkblue;
+        grid-row: 3/4;
+        grid-column: 4/5;
+    }
+
+    section>div:nth-child(7){
+        background: slateblue;
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    section>div:nth-child(8){
+        background: purple;
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    section>div:nth-child(9){
+        background: hotpink;
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    section>div:nth-child(10){
+        background: saddlebrown;
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+
+    section>div:nth-child(11){
+        background: steelblue;
+        grid-row: 3/4;
+        grid-column: 3/4;
+    }
+
+    section>div:nth-child(12){
+        background: skyblue;
+        grid-row: 3/4;
+        grid-column: 4/5;
+    }
+
+</style>
 <body>
     <section>
         <div></div>
